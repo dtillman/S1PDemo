@@ -1,0 +1,6 @@
+machine:
+  environment:
+    _JAVA_OPTIONS: "-Xms256m -Xmx512m"
+test:
+  override:
+    - ./gradlew check --info

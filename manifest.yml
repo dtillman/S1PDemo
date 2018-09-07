@@ -1,0 +1,15 @@
+﻿---
+applications:
+- name: shoppingcart-processor
+  path: applications/shopping-cart/build/libs/shopping-cart-trace-example-0.0.1-SNAPSHOT.jar
+  buildpack: java_buildpack_offline
+  env:
+    ORDERS_HOST: orders-processor.apps.pcfone.io
+    # ORDERS_HOST: orders-processor.pcfbeta.io
+# services:
+    # - myMetrics
+- name: payments-processor
+  path: applications/payments/build/libs/payments-trace-example-0.0.1-SNAPSHOT.jar
+  buildpack: java_buildpack_offline
+# services:
+#     - myMetrics

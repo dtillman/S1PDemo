@@ -1,0 +1,7 @@
+﻿---
+applications:
+- name: orders-processor
+  services:
+   - myHystrixService
+  env:
+    ASPNETCORE_ENVIRONMENT: Development

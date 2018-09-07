@@ -1,0 +1,6 @@
+rootProject.name = "pcf-metrics-tracing-spring-example"
+
+include "applications:orders"
+include "applications:payments"
+include "applications:shopping-cart"
+include "system-tests"

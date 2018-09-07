@@ -1,0 +1,7 @@
+﻿---
+applications:
+- name: payments-test
+  stack: windows2012R2
+  command: .\WebApplication1
+  env:
+    ASPNETCORE_ENVIRONMENT: Development
