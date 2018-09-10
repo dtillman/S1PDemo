@@ -3,5 +3,6 @@ applications:
 - name: orders-processor
   services:
    - myHystrixService
+   - myMySqlService
   env:
     ASPNETCORE_ENVIRONMENT: Development
